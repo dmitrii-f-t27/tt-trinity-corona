@@ -1,0 +1,23 @@
+{
+  "run_url": "https://github.com/gHashTag/tt-trinity-corona/actions/runs/35509472285",
+  "head_sha": "2a5eefc43ab28e74a07831cb56a77489a99c59d3",
+  "full_log_sha256": "3da58492b585ff251a0345e389a2c9cdc752ba6116afbfc5ad4fcce20565926f",
+  "lines": [
+    {
+      "line": 3282,
+      "text": "test\tUNKNOWN STEP\t2026-09-20T12:28:02.7872235Z    281.00ns INFO     cocotb.tt_um_trinity_corona        PASS: anchor = 0x47C0, uio_oe = 0xFF"
+    },
+    {
+      "line": 3294,
+      "text": "test\tUNKNOWN STEP\t2026-09-20T12:28:02.7922857Z    962.00ns INFO     cocotb.tt_um_trinity_corona        PASS: anchor stable across 10 cycles"
+    },
+    {
+      "line": 6518,
+      "text": "gls\tUNKNOWN STEP\t2026-09-20T12:21:21.4922344Z PASS: anchor = 0x47C0, oe=FF"
+    },
+    {
+      "line": 6865,
+      "text": "claim-status-lint\tUNKNOWN STEP\t2026-09-20T12:14:26.8473175Z claim-status-lint: PASS (no banned words found)"
+    }
+  ]
+}

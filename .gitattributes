@@ -1,0 +1,2 @@
+# Preserve upstream receipt bytes, including the synthesis report's blank EOF.
+docs/phase_a/receipts/* whitespace=-blank-at-eof

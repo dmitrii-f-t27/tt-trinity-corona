@@ -12,6 +12,7 @@
     "test_lut_published_values",
     "test_mutation_guards",
     "test_ondie_coverage_crosscheck",
+    "test_phase_a_evidence",
     "test_pinout_consistency",
     "test_posit8_independent",
     "test_post_silicon_vectors",
@@ -196,7 +197,7 @@
   ],
   "schema": "corona-verification/1",
   "summary": {
-    "ci_gates": 21,
+    "ci_gates": 22,
     "decoders": 17,
     "formal_harnesses": 17,
     "independent_references": 17,

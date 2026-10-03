@@ -8,6 +8,31 @@ on:
     branches: [main]
 
 jobs:
+  phase-a-spec:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
+        with:
+          repository: gHashTag/t27
+          ref: db870cdf292272f373037fb40b607c4134f59474
+          path: .phase-a-toolchain
+      - uses: mlugg/setup-zig@v2
+        with:
+          version: 0.16.0
+      - name: Build pinned t27c
+        run: cargo build --locked --release --manifest-path .phase-a-toolchain/Cargo.toml -p t27c
+      - name: Execute Phase A spec tests and compile generated Rust
+        run: |
+          COMPILER=.phase-a-toolchain/target/release/t27c
+          "$COMPILER" parse specs/corona/phase_a.t27 > /tmp/phase_a.ast.json
+          "$COMPILER" typecheck specs/corona/phase_a.t27
+          "$COMPILER" gen specs/corona/phase_a.t27 > /tmp/phase_a.zig
+          zig test /tmp/phase_a.zig
+          "$COMPILER" gen-rust specs/corona/phase_a.t27 > /tmp/phase_a.rs
+          rustc --crate-type lib /tmp/phase_a.rs -o /tmp/libphase_a.rlib
+
   lint:
     runs-on: ubuntu-latest
     timeout-minutes: 10
