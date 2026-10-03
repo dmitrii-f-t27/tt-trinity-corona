@@ -1,0 +1,387 @@
+{
+  "run_url": "https://github.com/gHashTag/tt-trinity-corona/actions/runs/35509472314",
+  "head_sha": "2a5eefc43ab28e74a07831cb56a77489a99c59d3",
+  "full_log_sha256": "a832f1ab283403cbbbb7bbfdba1c97837edbf72cc1f92438d5643304eea6ed4d",
+  "lines": [
+    {
+      "line": 18258,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1644622Z                                                                                 "
+    },
+    {
+      "line": 18259,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1651233Z === tt_um_trinity_corona ===                                                    "
+    },
+    {
+      "line": 18260,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1655679Z                                                                                 "
+    },
+    {
+      "line": 18261,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1661862Z         +----------Local Count, excluding submodules.                           "
+    },
+    {
+      "line": 18262,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1667672Z         |        +-Local Area, excluding submodules.                            "
+    },
+    {
+      "line": 18263,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1673056Z         |        |                                                              "
+    },
+    {
+      "line": 18264,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1678792Z      1340        - wires                                                        "
+    },
+    {
+      "line": 18265,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1685121Z      1375        - wire bits                                                    "
+    },
+    {
+      "line": 18266,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1691269Z       120        - public wires                                                 "
+    },
+    {
+      "line": 18267,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1697228Z       155        - public wire bits                                             "
+    },
+    {
+      "line": 18268,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1703175Z         8        - ports                                                        "
+    },
+    {
+      "line": 18269,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1709179Z        43        - port bits                                                    "
+    },
+    {
+      "line": 18270,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1715028Z      1356  2.8E+04 cells                                                        "
+    },
+    {
+      "line": 18271,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1722231Z        24  421.478   gf180mcu_fd_sc_mcu7t5v0__and2_1                            "
+    },
+    {
+      "line": 18272,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1728242Z         7  153.664   gf180mcu_fd_sc_mcu7t5v0__and3_1                            "
+    },
+    {
+      "line": 18273,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1735180Z         8  193.178   gf180mcu_fd_sc_mcu7t5v0__and4_1                            "
+    },
+    {
+      "line": 18274,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1742284Z        33  724.416   gf180mcu_fd_sc_mcu7t5v0__aoi211_1                          "
+    },
+    {
+      "line": 18275,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1748347Z        71 1.25E+03   gf180mcu_fd_sc_mcu7t5v0__aoi21_1                           "
+    },
+    {
+      "line": 18276,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1755576Z        54  1.3E+03   gf180mcu_fd_sc_mcu7t5v0__aoi221_1                          "
+    },
+    {
+      "line": 18277,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1762577Z        14  430.259   gf180mcu_fd_sc_mcu7t5v0__aoi222_1                          "
+    },
+    {
+      "line": 18278,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1769168Z        69 1.36E+03   gf180mcu_fd_sc_mcu7t5v0__aoi22_1                           "
+    },
+    {
+      "line": 18279,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1775484Z        11  144.883   gf180mcu_fd_sc_mcu7t5v0__buf_1                             "
+    },
+    {
+      "line": 18280,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1782613Z        73  640.998   gf180mcu_fd_sc_mcu7t5v0__clkinv_1                          "
+    },
+    {
+      "line": 18281,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1789326Z        66  4.2E+03   gf180mcu_fd_sc_mcu7t5v0__dffq_1                            "
+    },
+    {
+      "line": 18282,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1795537Z        44 3.28E+03   gf180mcu_fd_sc_mcu7t5v0__dffrnq_1                          "
+    },
+    {
+      "line": 18283,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1802711Z         1   79.027   gf180mcu_fd_sc_mcu7t5v0__dffsnq_1                          "
+    },
+    {
+      "line": 18284,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1809230Z        10   329.28   gf180mcu_fd_sc_mcu7t5v0__mux2_2                            "
+    },
+    {
+      "line": 18285,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1816090Z       270  2963.52   gf180mcu_fd_sc_mcu7t5v0__nand2_1                           "
+    },
+    {
+      "line": 18286,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1823030Z        98 1.51E+03   gf180mcu_fd_sc_mcu7t5v0__nand3_1                           "
+    },
+    {
+      "line": 18287,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1830513Z        25   493.92   gf180mcu_fd_sc_mcu7t5v0__nand4_1                           "
+    },
+    {
+      "line": 18288,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1836442Z       176 2.32E+03   gf180mcu_fd_sc_mcu7t5v0__nor2_1                            "
+    },
+    {
+      "line": 18289,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1843484Z        29  509.286   gf180mcu_fd_sc_mcu7t5v0__nor3_1                            "
+    },
+    {
+      "line": 18290,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1850196Z         3   65.856   gf180mcu_fd_sc_mcu7t5v0__nor4_1                            "
+    },
+    {
+      "line": 18291,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1856815Z        41  900.032   gf180mcu_fd_sc_mcu7t5v0__oai211_1                          "
+    },
+    {
+      "line": 18292,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1863792Z       110 1.93E+03   gf180mcu_fd_sc_mcu7t5v0__oai21_1                           "
+    },
+    {
+      "line": 18293,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1871195Z        13  342.451   gf180mcu_fd_sc_mcu7t5v0__oai221_1                          "
+    },
+    {
+      "line": 18294,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1877441Z        22  482.944   gf180mcu_fd_sc_mcu7t5v0__oai22_1                           "
+    },
+    {
+      "line": 18295,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1884258Z        18   434.65   gf180mcu_fd_sc_mcu7t5v0__oai31_1                           "
+    },
+    {
+      "line": 18296,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1890724Z        13  342.451   gf180mcu_fd_sc_mcu7t5v0__oai32_1                           "
+    },
+    {
+      "line": 18297,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1896901Z        17  298.547   gf180mcu_fd_sc_mcu7t5v0__or2_1                             "
+    },
+    {
+      "line": 18298,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1903453Z         8  175.616   gf180mcu_fd_sc_mcu7t5v0__or3_1                             "
+    },
+    {
+      "line": 18299,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1910072Z         1   26.342   gf180mcu_fd_sc_mcu7t5v0__or4_1                             "
+    },
+    {
+      "line": 18300,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1916608Z         4   35.123   gf180mcu_fd_sc_mcu7t5v0__tiel                              "
+    },
+    {
+      "line": 18301,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1923087Z         3   85.613   gf180mcu_fd_sc_mcu7t5v0__xnor2_1                           "
+    },
+    {
+      "line": 18302,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1929938Z        19  500.506   gf180mcu_fd_sc_mcu7t5v0__xor2_1                            "
+    },
+    {
+      "line": 18303,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1936264Z         1    50.49   gf180mcu_fd_sc_mcu7t5v0__xor3_1                            "
+    },
+    {
+      "line": 18304,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1941120Z                                                                                 "
+    },
+    {
+      "line": 18305,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1947781Z    Chip area for module '\\tt_um_trinity_corona': 27980.019200                   "
+    },
+    {
+      "line": 18306,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:53.1954667Z      of which used for sequential elements: 7564.659200 (27.04%)                "
+    },
+    {
+      "line": 18439,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1496416Z + initialize_floorplan -site GF018hv5v_mcu_sc7 -die_area 0 0 1440.32 736.96     "
+    },
+    {
+      "line": 18440,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1497584Z -core_area 3.3600000000000003 3.92 1436.96 733.0400000000001                    "
+    },
+    {
+      "line": 18441,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1504960Z [INFO IFP-0001] Added 186 rows of 2560 site GF018hv5v_mcu_sc7.                  "
+    },
+    {
+      "line": 18442,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1518420Z [INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 1440.320 736.960 ) um            "
+    },
+    {
+      "line": 18443,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1528734Z [INFO IFP-0101] Core BBox: (  3.360  3.920 ) ( 1436.960 733.040 ) um            "
+    },
+    {
+      "line": 18444,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1537438Z [INFO IFP-0102] Core area:                      1045266.432 um^2                "
+    },
+    {
+      "line": 18445,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1546187Z [INFO IFP-0103] Total instances area:             27980.019 um^2                "
+    },
+    {
+      "line": 18446,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1553837Z [INFO IFP-0104] Effective utilization:                0.027                     "
+    },
+    {
+      "line": 18447,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1562109Z [INFO IFP-0105] Number of instances:                   1356                     "
+    },
+    {
+      "line": 18448,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1569543Z [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tiel/ZN.     "
+    },
+    {
+      "line": 18449,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1577128Z [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tieh/Z.      "
+    },
+    {
+      "line": 18450,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1584444Z [INFO] Extracting DIE_AREA and CORE_AREA from the floorplan                     "
+    },
+    {
+      "line": 18451,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1593633Z [INFO] Floorplanned on a die area of 0.0 0.0 1440.32 736.96 (\u00b5m).               "
+    },
+    {
+      "line": 18452,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:06:56.1602269Z [INFO] Floorplanned on a core area of 3.36 3.92 1436.96 733.04 (\u00b5m).            "
+    },
+    {
+      "line": 20514,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:08:45.1971903Z [INFO DRT-0199]   Number of violations = 0.                                     "
+    },
+    {
+      "line": 22516,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:44.7719035Z [12:10:44] INFO     Check for Magic DRC errors clear.             checker.py:131"
+    },
+    {
+      "line": 22517,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:44.7752653Z \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 KLayout Design Rule Checker \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
+    },
+    {
+      "line": 22518,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:44.7764084Z [12:10:44] VERBOSE  Running 'Checker.KLayoutDRC' at                 step.py:1138"
+    },
+    {
+      "line": 22519,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:44.7765365Z                     'runs/wokwi/67-checker-klayoutdrc'\u2026                         "
+    },
+    {
+      "line": 22520,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:44.7786233Z [12:10:44] WARNING  The KLayout DRC errors metric was not found.  checker.py:133"
+    },
+    {
+      "line": 26067,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3736353Z [12:10:53] WARNING  [Checker.KLayoutDRC] The KLayout DRC errors      flow.py:701"
+    },
+    {
+      "line": 26068,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3737208Z                     metric was not found. Are you sure the relevant             "
+    },
+    {
+      "line": 26069,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3738252Z                     step was run?                                               "
+    },
+    {
+      "line": 26070,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3751359Z [12:10:53] WARNING  [Checker.SetupViolations] Setup violations found flow.py:701"
+    },
+    {
+      "line": 26071,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3752202Z                     in the following corners:                                   "
+    },
+    {
+      "line": 26072,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3752898Z                     * max_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26073,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3753549Z                     * min_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26074,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3754193Z                     * nom_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26075,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3769497Z [12:10:53] WARNING  [Checker.MaxSlewViolations] Max Slew violations  flow.py:701"
+    },
+    {
+      "line": 26076,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3770364Z                     found in the following corners:                             "
+    },
+    {
+      "line": 26077,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3771189Z                     * max_ff_n40C_3v60                                          "
+    },
+    {
+      "line": 26078,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3771879Z                     * max_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26079,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3772587Z                     * max_tt_025C_3v30                                          "
+    },
+    {
+      "line": 26080,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3773290Z                     * min_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26081,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3773989Z                     * min_tt_025C_3v30                                          "
+    },
+    {
+      "line": 26082,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3774698Z                     * nom_ff_n40C_3v60                                          "
+    },
+    {
+      "line": 26083,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3775406Z                     * nom_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26084,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3776101Z                     * nom_tt_025C_3v30                                          "
+    },
+    {
+      "line": 26085,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3787035Z [12:10:53] WARNING  [Checker.MaxCapViolations] Max Cap violations    flow.py:701"
+    },
+    {
+      "line": 26086,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3788133Z                     found in the following corners:                             "
+    },
+    {
+      "line": 26087,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3788885Z                     * max_ff_n40C_3v60                                          "
+    },
+    {
+      "line": 26088,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3789602Z                     * max_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26089,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3790373Z                     * max_tt_025C_3v30                                          "
+    },
+    {
+      "line": 26090,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3791078Z                     * nom_ss_125C_3v00                                          "
+    },
+    {
+      "line": 26091,
+      "text": "gds\tUNKNOWN STEP\t2026-09-20T12:10:53.3791783Z                     * nom_tt_025C_3v30                                          "
+    },
+    {
+      "line": 32482,
+      "text": "precheck\tUNKNOWN STEP\t2026-09-20T12:18:59.0746416Z INFO: Precheck passed for /home/runner/work/tt-trinity-corona/tt-trinity-corona/tt_submission/tt_um_trinity_corona.gds! \ud83c\udf89"
+    }
+  ]
+}

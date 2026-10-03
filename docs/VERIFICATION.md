@@ -56,6 +56,7 @@ Every Tier-1 decoder is validated by **five independent evidence layers**. This 
 - `test_lut_published_values`
 - `test_mutation_guards`
 - `test_ondie_coverage_crosscheck`
+- `test_phase_a_evidence`
 - `test_pinout_consistency`
 - `test_posit8_independent`
 - `test_post_silicon_vectors`
