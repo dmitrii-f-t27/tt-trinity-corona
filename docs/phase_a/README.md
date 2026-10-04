@@ -1,5 +1,12 @@
 # Phase A: measured GF180MCU design fit
 
+The historical GDS workflow is retained byte-for-byte in
+`gds-workflow-source.yml`, under its original provenance hash. The current
+workflow differs only by the guard that publishes Pages from canonical `main`.
+Fork PRs still execute hardening, precheck and gate-level simulation; they cannot
+publish Pages because GitHub withholds the OIDC write token. The receipt gate
+rejects any workflow change outside this exact publication guard.
+
 Issue: [#1](https://github.com/gHashTag/tt-trinity-corona/issues/1).
 Acceptance policy: [phase_a.t27](../../specs/corona/phase_a.t27).
 Evidence retrieved and checked on 2026-10-03 by dmitrii-f-t27.

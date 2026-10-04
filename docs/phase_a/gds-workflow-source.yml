@@ -1,0 +1,69 @@
+name: GDS
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  gds:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: recursive
+
+      - name: Pre-create verilator-lint log (workaround for tt-gds-action upstream bug)
+        run: |
+          # tt-gds-action@ttgf26a Linter output step does
+          #   cat runs/wokwi/*-verilator-lint/verilator-lint.log
+          # but LibreLane does not always produce that file on this ref,
+          # which makes the whole job fail with exit 1.
+          # Pre-create a stub so the cat succeeds with empty content.
+          # Upstream issue:
+          # https://github.com/TinyTapeout/tt-gds-action (filed separately)
+          mkdir -p runs/wokwi/0-verilator-lint
+          : > runs/wokwi/0-verilator-lint/verilator-lint.log
+          echo "(stub log; see upstream tt-gds-action issue)" \
+            > runs/wokwi/0-verilator-lint/verilator-lint.log
+
+      - name: Harden GDS (GF180MCU)
+        uses: TinyTapeout/tt-gds-action@ttgf26a
+        with:
+          pdk: gf180mcuD
+
+      - name: Upload GDS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gds-files
+          path: runs/
+
+      - name: Print warnings
+        if: always()
+        run: ./tt/tt_tool.py --gf --print-warnings || true
+
+  precheck:
+    needs: gds
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: TinyTapeout/tt-gds-action/precheck@ttgf26a
+
+  gl_test:
+    needs: gds
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - uses: TinyTapeout/tt-gds-action/gl_test@ttgf26a
+
+  viewer:
+    needs: gds
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: TinyTapeout/tt-gds-action/viewer@ttgf26a
